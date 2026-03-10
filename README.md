@@ -35,25 +35,24 @@ Structured educational thread (ID/EN bilingual) that walks through the analysis 
 
 ## Project Structure
 
-
-jane-street-btc-analysis/
-├── src/
-│   ├── components/
-│   │   ├── Infographic.jsx       # Main interactive infographic
-│   │   ├── StatsBoard.jsx        # Statistics dashboard
-│   │   ├── TimelineChart.jsx     # Price movement timeline
-│   │   └── VolumeAnalysis.jsx    # Volume anomaly visualizer
-│   ├── data/
-│   │   ├── price_data.json       # Historical BTC price data
-│   │   ├── wallet_activity.json  # Jane Street wallet movements
-│   │   └── volume_data.json      # Exchange volume data
-│   └── App.jsx
-├── public/
-│   └── index.html
-├── thread/
-│   └── twitter_thread_id_en.md   # Bilingual thread script
-├── package.json
-└── README.md
+    jane-street-btc-analysis/
+    ├── src/
+    │   ├── components/
+    │   │   ├── Infographic.jsx       # Main interactive infographic
+    │   │   ├── StatsBoard.jsx        # Statistics dashboard
+    │   │   ├── TimelineChart.jsx     # Price movement timeline
+    │   │   └── VolumeAnalysis.jsx    # Volume anomaly visualizer
+    │   ├── data/
+    │   │   ├── price_data.json       # Historical BTC price data
+    │   │   ├── wallet_activity.json  # Jane Street wallet movements
+    │   │   └── volume_data.json      # Exchange volume data
+    │   └── App.jsx
+    ├── public/
+    │   └── index.html
+    ├── thread/
+    │   └── twitter_thread_id_en.md   # Bilingual thread script
+    ├── package.json
+    └── README.md
 
 
 ## Quick Start
